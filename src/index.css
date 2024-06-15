@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply bg-indigo-600 disabled:opacity-25 text-sm text-white px-4 py-2 font-medium rounded-lg hover:opacity-90 active:bg-indigo-700 transition duration-200;
+  }
+}
+
+@layer components {
+  .card {
+    @apply p-8 bg-slate-50 text-sm border font-medium text-slate-500 tracking-tight border-slate-300 rounded-xl h-48;
+  }
+}
